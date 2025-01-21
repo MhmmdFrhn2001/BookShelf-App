@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Penyimpanan Rak Buku</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="container">
+        <h1 class="animate__animated animate__fadeInDown">Aplikasi Penyimpanan Rak Buku</h1>
+        
+        <form id="book-form">
+            <input class="judulbuku" type="text" id="title" placeholder="Judul Buku" required>
+            <input class="namapenulis" type="text" id="author" placeholder="Nama Penulis" required>
+            <input class="tahunterbit" type="number" id="year" placeholder="Tahun Terbit" required>
+            <button class="submit" type="submit">Tambah Buku</button>
+        </form>
+        
+        <input class="caribuku" type="text" id="search" placeholder="Cari Buku...">
+        
+        <h2 class="animate__animated animate__fadeInDown">Buku Yang Belum Selesai Dibaca</h2>
+        <ul id="unfinished-books"></ul>
+        
+        <h2 class="animate__animated animate__fadeInDown">Buku Yang Sudah Selesai Dibaca</h2>
+        <ul id="finished-books"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

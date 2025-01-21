@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(56, 56, 200);
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form, #search {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form input, form button, #search {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+button.mark-finished {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+button.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.submit{
+    background-color: rgb(61, 149, 238);
+    border: none;
+    border-radius: 8px;
+}
+
+.judulbuku{
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.namapenulis{
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.tahunterbit{
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.caribuku{
+    width: 96%;
+    border: solid 1px;
+    border-radius: 8px;
+}
